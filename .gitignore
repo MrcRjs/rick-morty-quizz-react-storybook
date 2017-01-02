@@ -1,4 +1,4 @@
 node_modules/
-app/
+app/js/main.js
 .DS_Store
 *.log
