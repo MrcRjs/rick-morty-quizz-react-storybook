@@ -22,9 +22,9 @@ class QuizResult extends Component {
 
     const {score} = this.props
     let result;
-    if(score < 2 ){
+    if(score <= 2 ){
       result = 0;
-    }else if(score < 4){
+    }else if(score <= 4){
       result = 1;
     }else if(score == 5){
       result = 2;
